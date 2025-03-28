@@ -40,3 +40,39 @@ console.log(filterring); */
 const findLarge20 =  numbers.find(number => number > 20);
 
 console.log(findLarge20); */
+
+//  [65,70,68,72,68,73] use filter
+
+/* const numberInch = [65, 70, 68, 72, 68, 73];
+
+const filterInch = numberInch.filter(n => (n > 69));
+
+console.log(filterInch); */
+
+// problem  [7,10,15,20,25,30] use map
+
+/* const dividedNumbers = [7,10,15,20,25,30];
+
+const divNumm = dividedNumbers.map(d => (d/3).toFixed(2));
+
+divNumm.forEach(result => console.log(result)); */
+
+
+//  problem : 6 ["Messi","Maradona", "play", "ronaldo", "Zidane"] find 3rd number
+
+/* 
+const friends = ["Messi","Maradona", "play", "ronaldo", "Zidane"]
+
+const result = friends.map(friend => friend[2]);
+
+console.log(result); */
+
+// problem: problem : 2 ["Messi","Maradona", "play", "ronaldo", "Zidane"]  use find H diea name search
+
+const friends = ["Messi","Maradona", "play", "ronaldo", "Zidane"];
+
+const findFriend =  friends.find(f=>f.toLowerCase().includes("n"));
+
+console.log(findFriend);
+
+
